@@ -1,5 +1,5 @@
 import pidusage = require('pidusage');
-import {Status} from "pidusage";
+import { Status } from "pidusage";
 
 export function humanTimeToMS(text: string): number {
   const parts: number[] = text.split(':').map(p => parseInt(p));
@@ -38,10 +38,13 @@ export namespace Parse {
 
   export function getRes(text: string): { width: number, height: number } {
     const searchResult = /([1-9][0-9]*)x([1-9][0-9]*)/i.exec(text);
-    return {
-      width: parseInt(searchResult[1]),
-      height: parseInt(searchResult[2])
+    if (searchResult) {
+      return {
+        width: parseInt(searchResult[1]),
+        height: parseInt(searchResult[2])
+      }
     }
+
   }
 
   export function getFPS(text: string): number {
