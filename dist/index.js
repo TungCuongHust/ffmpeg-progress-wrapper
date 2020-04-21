@@ -161,16 +161,16 @@ class FFMpegProgress extends events_1.EventEmitter {
             .replace(/=\ */g, '=')
             .split(' ')
             .map(keyVal => {
-                const split = keyVal.split('=');
-                return [
-                    split[0].trim(),
-                    split[1].trim()
-                ];
-            })
+            const split = keyVal.split('=');
+            return [
+                split[0].trim(),
+                split[1].trim()
+            ];
+        })
             .reduce((obj, kv) => {
-                obj[kv[0]] = !isNaN(Number(kv[1])) ? parseFloat(kv[1]) : kv[1];
-                return obj;
-            }, {});
+            obj[kv[0]] = !isNaN(Number(kv[1])) ? parseFloat(kv[1]) : kv[1];
+            return obj;
+        }, {});
         data.time = helper_1.humanTimeToMS(data.time.toString());
         data.speed = parseFloat(data.speed.toString().replace('x', ''));
         if (duration !== null) {

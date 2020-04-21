@@ -1,27 +1,26 @@
 {
-  "_from": "ffmpeg-progress-wrapper@^1.1.6",
+  "_from": "github:TungCuongHust/ffmpeg-progress-wrapper",
   "_id": "ffmpeg-progress-wrapper@1.1.6",
   "_inBundle": false,
-  "_integrity": "sha512-FC1rk6T1Aqh/rJdrP+uimHsF2OtPE3aomVUyjdVjSEqNGWTnbHw3opIDD/7pzyyZouzPkG3vRntQ8Ds+K62XEw==",
+  "_integrity": "",
   "_location": "/ffmpeg-progress-wrapper",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "ffmpeg-progress-wrapper@^1.1.6",
+    "type": "git",
+    "raw": "ffmpeg-progress-wrapper@github:TungCuongHust/ffmpeg-progress-wrapper",
     "name": "ffmpeg-progress-wrapper",
     "escapedName": "ffmpeg-progress-wrapper",
-    "rawSpec": "^1.1.6",
-    "saveSpec": null,
-    "fetchSpec": "^1.1.6"
+    "rawSpec": "github:TungCuongHust/ffmpeg-progress-wrapper",
+    "saveSpec": "github:TungCuongHust/ffmpeg-progress-wrapper",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ffmpeg-progress-wrapper/-/ffmpeg-progress-wrapper-1.1.6.tgz",
+  "_resolved": "github:TungCuongHust/ffmpeg-progress-wrapper#9fabb6189ba290f58ed19e393f7b3248925164ee",
   "_shasum": "8db82deabb1a28d790b425ea2371d434bb9df1a8",
-  "_spec": "ffmpeg-progress-wrapper@^1.1.6",
+  "_spec": "ffmpeg-progress-wrapper@github:TungCuongHust/ffmpeg-progress-wrapper",
   "_where": "/home/cuong/Documents/Benchmark",
   "author": {
     "name": "Stefan-Gabriel Muscalu",
