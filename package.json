@@ -1,0 +1,69 @@
+{
+  "_from": "ffmpeg-progress-wrapper@^1.1.6",
+  "_id": "ffmpeg-progress-wrapper@1.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-FC1rk6T1Aqh/rJdrP+uimHsF2OtPE3aomVUyjdVjSEqNGWTnbHw3opIDD/7pzyyZouzPkG3vRntQ8Ds+K62XEw==",
+  "_location": "/ffmpeg-progress-wrapper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ffmpeg-progress-wrapper@^1.1.6",
+    "name": "ffmpeg-progress-wrapper",
+    "escapedName": "ffmpeg-progress-wrapper",
+    "rawSpec": "^1.1.6",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.6"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ffmpeg-progress-wrapper/-/ffmpeg-progress-wrapper-1.1.6.tgz",
+  "_shasum": "8db82deabb1a28d790b425ea2371d434bb9df1a8",
+  "_spec": "ffmpeg-progress-wrapper@^1.1.6",
+  "_where": "/home/cuong/Documents/Benchmark",
+  "author": {
+    "name": "Stefan-Gabriel Muscalu",
+    "email": "stefan.gabriel.muscalu@gmail.com",
+    "url": "http://my.corneroftheinternet.rocks/"
+  },
+  "bugs": {
+    "url": "https://github.com/legraphista/ffmpeg-progress-wrapper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/node": "^11.11.5",
+    "@types/pidusage": "^2.0.1",
+    "pidusage": "^2.0.17",
+    "typescript": "^3.3.4000"
+  },
+  "deprecated": false,
+  "description": "A simple wrapper that helps with determinng the progress of the ffmpeg conversion ",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "homepage": "https://github.com/legraphista/ffmpeg-progress-wrapper#readme",
+  "keywords": [
+    "ffmpeg",
+    "progress",
+    "wrapper",
+    "status",
+    "cli",
+    "ffmpeg-cli"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "ffmpeg-progress-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/legraphista/ffmpeg-progress-wrapper.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "install": "tsc",
+    "watch": "tsc --watch"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.1.6"
+}
